@@ -16,19 +16,6 @@ section {
   border-radius: 8px;
 }
 
-/* section > div {
-  flex: 1;
-} */
-
-/* .sedans {
-  background-color: rgba(0, 105, 113, 1);
-  width: 307px;
-  height: 100%;
-  border-radius: 8px 0 0 8px;
-  margin-left: 47px;
-  padding-top: 20px
-} */
-
 .sudansvg {
   margin-top: 48px;
   margin-left: 48px;
@@ -93,24 +80,24 @@ a,
 /* BUTTONS HOVER */
 
 .btn-orange:hover {
-    color: #fff;
-    border: 1px solid #fff;
-    background-color: #a40606;
-    background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #a40606;
+  background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
 }
 
 .btn-blue:hover {
-    color: #fff;
-    border: 1px solid #fff;
-    background-color: #7f5a83;
-    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);   
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
 }
 
 .btn-green:hover {
-    color: #fff;
-    border: 1px solid #fff;
-    background-color: #63d471;
-    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #63d471;
+  background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
 }
 
 /* SUV CARD */
@@ -259,22 +246,18 @@ a,
     font-weight: 400;
     line-height: 25px;
   }
-  span {
+  a {
     font-family: Lexend Deca;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
   }
-  .sedan-btn {
-    width: 146px;
-    height: 48px;
+  .btn button {
+    font-size: 15px;
+    line-height: 25px;
     border-radius: 25px;
-    background: rgba(242, 242, 242, 1);
-    border-color: #e28625;
-    color: #e28625;
-    margin: 36px;
-    cursor: pointer;
+    margin-bottom: 40px;
   }
 
   /* SUVS CARD */
@@ -313,15 +296,11 @@ a,
     font-weight: 400;
     line-height: 25px;
   }
-  .suv-btn {
-    width: 146px;
-    height: 48px;
+  .btn button {
+    font-size: 15px;
+    line-height: 25px;
     border-radius: 25px;
-    background: #f2f2f2;
-    border-color: rgba(0, 105, 113, 1);
-    color: #006971;
-    margin: 36px;
-    cursor: pointer;
+    margin-bottom: 40px;
   }
   /* LUXURY CARD */
   .lux-svg {
@@ -359,14 +338,10 @@ a,
     font-weight: 400;
     line-height: 25px;
   }
-  .lux-btn {
-    width: 146px;
-    height: 48px;
+  .btn button {
+    font-size: 15px;
+    line-height: 25px;
     border-radius: 25px;
-    background: #f2f2f2;
-    border-color: rgba(0, 65, 64, 1);
-    color: #004140;
-    margin: 36px;
-    cursor: pointer;
+    margin-bottom: 40px;
   }
 }
