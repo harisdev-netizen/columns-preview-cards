@@ -177,4 +177,161 @@ span {
   cursor: pointer;
 }
 
-/* footer */
+/* MEDIA QUERIES */
+@media screen and (max-width: 327px) {
+  section {
+    display: flex;
+    width: 375px;
+    padding: 88px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+  }
+  .sedans {
+    margin-top: 200%;
+    width: 270px;
+    margin-left: 10px;
+    height: 442px;
+    border-radius: 8px 8px 0 0;
+    background: #e28625;
+  }
+  .sudansvg {
+    width: 64px;
+    height: 40px;
+    margin-top: 44px;
+    margin-left: 44px;
+  }
+  .sedans > h2 {
+    color: #f2f2f2;
+    font-family: Big Shoulders Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 28px;
+  }
+  .sedans > p {
+    color: #fff;
+    margin-top: 44px;
+    margin-left: 44px;
+    width: 212px;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    opacity: 0.75;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  span {
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  .sedan-btn {
+    width: 146px;
+    height: 48px;
+    border-radius: 25px;
+    background: rgba(242, 242, 242, 1);
+    border-color: #e28625;
+    color: #e28625;
+    margin: 36px;
+    cursor: pointer;
+  }
+
+  /* SUVS CARD */
+  .suvs {
+    background-color: rgba(0, 105, 113, 1);
+    width: 270px;
+    height: 442px;
+    border-radius: 0 0 0 0;
+    margin-left: 10px;
+  }
+  .suv-svg {
+    margin-top: 44px;
+    margin-left: 44px;
+    width: 64px;
+    height: 40px;
+  }
+  .suvs > h2 {
+    margin-top: 28px;
+    color: #f2f2f2;
+    font-family: Big Shoulders Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .suvs > p {
+    color: #fff;
+    margin-top: 44px;
+    margin-left: 44px;
+    width: 212px;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    opacity: 0.75;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  .suv-btn {
+    width: 146px;
+    height: 48px;
+    border-radius: 25px;
+    background: #f2f2f2;
+    border-color: rgba(0, 105, 113, 1);
+    color: #006971;
+    margin: 36px;
+    cursor: pointer;
+  }
+  /* LUXURY CARD */
+  .lux-svg {
+    width: 64px;
+    height: 40px;
+    margin-top: 44px;
+    margin-left: 44px;
+  }
+  .luxury {
+    background-color: rgba(0, 65, 64, 1);
+    width: 270px;
+    margin-left: 10px;
+    height: 442px;
+    border-radius: 0 0 8px 8px;
+  }
+  .luxury > h2 {
+    color: #f2f2f2;
+    font-family: Big Shoulders Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 28px;
+  }
+  .luxury > p {
+    color: #fff;
+    margin-top: 44px;
+    margin-left: 44px;
+    width: 212px;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    opacity: 0.75;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  .lux-btn {
+    width: 146px;
+    height: 48px;
+    border-radius: 25px;
+    background: #f2f2f2;
+    border-color: rgba(0, 65, 64, 1);
+    color: #004140;
+    margin: 36px;
+    cursor: pointer;
+  }
+}
